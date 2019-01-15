@@ -15,11 +15,11 @@ function fib(n) {
         nextNum = num1 + num2;
         num1 = num2;
         num2 = nextNum;
-    }
+    } 
 
     return nextNum;
 }
 
-for(let j = 1; j < 20; j++) {
-    console.log(fib(j)); git 
+for(let j = 1; j < 1000; j++) {
+    console.log(fib(j)); 
 }
