@@ -21,5 +21,5 @@ function fib(n) {
 }
 
 for(let j = 1; j < 20; j++) {
-    console.log(fib(j)); 
+    console.log(fib(j)); git 
 }
