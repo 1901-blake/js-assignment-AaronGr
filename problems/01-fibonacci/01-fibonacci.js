@@ -2,9 +2,9 @@
 Define function: fib(n) 
 Return the nth number in the fibonacci sequence. */
 function fib(n) {
-    if( n == 0 || n == 1) {
+    if( n === 0 || n === 1) {
         return 0;
-    } else if( n == 2) {
+    } else if( n === 2) {
         return 1;
     }
 
