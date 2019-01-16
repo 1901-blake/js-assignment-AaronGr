@@ -28,7 +28,10 @@ function substring(someStr, startIndex, endIndex) {
         throw new RangeError('End index must be equal or higher to start index');
     }
 
+    //TODO check for empty string
+    //TODO check for startIndex = endIndex
+
     return someStr.substr(startIndex, endIndex);
 }
 
-console.log(substring('hello', 0, 3));
+console.log(substring('hello', 0, 1));
