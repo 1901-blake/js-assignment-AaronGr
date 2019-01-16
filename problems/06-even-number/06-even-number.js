@@ -3,17 +3,13 @@ Define function: isEven(someNum)
 Return true if even, false if odd.
 Do not use % operator. */
 function isEven(someNum) {
-    // TRY USING BITWISE OPERATIONS
-    let dividedByTwo = someNum;
-    while(dividedByTwo > 1) {
-        
-    }
-    if(dividedByTwo === 1) {
-        
-        return true;
-    } else {
+   if(someNum & 1 == 1) {
         return false;
-    }
+   } else {
+       return true;
+   }
 }
 
-console.log(isEven(409));
+for(let i = 0; i < 500; i++) {
+    console.log(isEven(i));
+}
